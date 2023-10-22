@@ -1,7 +1,68 @@
 
-input[type="text"]{
+@font-face {
+  font-family: Outfit; 
+  src: url('./Outfit/Outfit-VariableFont_wght.ttf'); } 
+
+h1, h2 {
   font-size: 11px;
   text-align: center;
   color: hsl(228, 45%, 44%);
 }
 
+body {
+  color: hsl(219, 15%, 55%);
+  background-image: url(images/BeFunky-design.jpg);
+  /* background-size: ; */
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 400, 700;
+}
+
+.grey {
+  position: absolute;
+  height: 80%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  align-content: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.white {
+  display: block;
+  position: absolute;
+  height: 65%;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 7%;
+  /* align-content: center; */
+  background-color: hsl(0, 0%, 100%);
+}
+
+.QR {
+  position: absolute;
+  height: 60%;
+  width: 90%;
+  align-content: center;
+  margin-left: 5%;
+  margin-top: 8%;
+  border-radius: 5px;
+  /* background-image: url(images/image-qr-code.png); */
+}
+
+texts {
+  position: absolute;
+  margin-top: 98%;
+  margin-left: -45%;
+}
+
+heading {
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+p {
+  font-size: 15px;
+}
