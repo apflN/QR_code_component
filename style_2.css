@@ -16,22 +16,26 @@ body {
   text-align: center;
   font-family: Outfit;
   font-weight: 400, 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .grey {
-  position: absolute;
   height: 80%;
   width: 90%;
-  margin-left: 5%;
-  margin-top: 5%;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
   background-color: hsl(212, 45%, 89%);
 }
 
 .white {
-  display: block;
-  position: absolute;
-  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  height: 70%;
   width: 20%;
   margin-left: 40%;
   margin-top: 7%;
@@ -39,15 +43,12 @@ body {
   background-color: hsl(0, 0%, 100%);
   border: 1px;
   border-radius: 10px;
+  position: relative;
 }
 
 .QR {
-  position: absolute;
-  height: 60%;
-  width: 90%;
-  align-content: center;
-  margin-left: 5%;
-  margin-top: 8%;
+  position: flex;
+  margin-top: -43%;
   /* background-image: url(images/image-qr-code.png); */
 }
 
@@ -55,10 +56,11 @@ body {
   border-radius: 10px;
 }
 
-texts {
+.texts {
+  width: 78%;
+  height: 90%;
   position: absolute;
-  margin-top: 98%;
-  margin-left: -45%;
+  margin-top: 185%;
 }
 
 heading {
